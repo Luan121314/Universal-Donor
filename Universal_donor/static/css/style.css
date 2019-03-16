@@ -9,7 +9,7 @@ body{
                             'section'
                             'article'
                             'footer';
-    grid-template-rows:  40px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows:  40px 200px 30px 30px 30px 30px 30px;
                         
 }
             /* Configuração Header */
@@ -36,6 +36,10 @@ header{
     align-items: center;
     
 }
+.sideBarLeft{
+    justify-content: left;
+    padding-left: 30px;
+}
 /* .sideBarLeft{
     justify-content: space-around;
 } */
@@ -45,7 +49,17 @@ header{
 nav{
     grid-area: nav;
     background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.intro{
+    width: 60%;
+    text-align: center;
+    padding: 20px 0 0 20px;
+    
+}
+            /* Fim nav */
 aside{
     grid-area: aside;
     background-color: antiquewhite;
