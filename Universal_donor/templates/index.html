@@ -1,15 +1,44 @@
 {% load staticfiles %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <script src="{% static 'js/script.js' %}" ></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Ta funfando</h1>
+    <div id="main" >
+        <header class="sideBar">
+            <div class="sideBarLeft">
+                <div>
+                     <h4>icone</h4>
+                </div>
+                <div>
+                   <h4> imagem interativa</h4>
+                </div>
+            </div>
+            <div class="sideBarRight" >
+                <div>
+                    Pesquisa <input type="text">
+                    <button>Buscar</button>
+                </div>
+                <div class="loginCadastro" >
+                    <a href="">Cadastro</a>
+                    <a href="">Login</a>
+                </div>
+            </div>
+           
+           
+        </header>
+        <nav>nav
+        </nav>
+        <aside>Aside</aside>
+        <section>Section</section>
+        <article>Article</article>
+        <footer>Footer</footer>
+    </div>
 </body>
 </html>
