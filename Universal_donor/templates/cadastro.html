@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
 </head>
 <body>
-    <form action="" method="POST">
+    <form class="loginBox" action="" method="POST">
+        {% csrf_token %}
         <h1>Nome completo</h1> <input type="text"><br>
         <h1>Apelido</h1> <input type="text"><br>
         <h1>E-mail</h1> <input type="email"><br>
