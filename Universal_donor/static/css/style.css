@@ -26,6 +26,7 @@ header{
     padding-left: 20px;
 }
 .loginCadastro{
+    display: flex;
     padding-right: 30px;
     
 }
@@ -40,7 +41,14 @@ header{
     justify-content: left;
     padding-left: 30px;
 }
-
+.sideBarRight div{
+    display: flex;
+    align-items: center;
+}
+.search{
+    height: 80%;
+    width: 80%;
+}
 
                 /* Fim header */
 nav{
