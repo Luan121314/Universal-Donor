@@ -40,9 +40,6 @@ header{
     justify-content: left;
     padding-left: 30px;
 }
-/* .sideBarLeft{
-    justify-content: space-around;
-} */
 
 
                 /* Fim header */
@@ -63,7 +60,21 @@ nav{
 aside{
     grid-area: aside;
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
 }
+.tour{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns{
+    height: 80%; 
+}
+
+
+        /* fim aside */
 section{
     grid-area: section;
     background-color: beige;
